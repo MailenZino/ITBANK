@@ -1,0 +1,24 @@
+main .formStep1 {
+    width: 700px;
+    padding: 50px;
+
+    .form-floating {
+        input, select {
+            border-radius: 50px;
+        }
+        input,
+        label,
+        select {
+            padding-left: 30px;
+        }
+        select{
+            padding-top: 0.7rem;
+        }
+    }
+    .docInfo {
+        display: grid;
+        align-items: flex-end;
+        position: relative;
+        grid-template-columns: 30% 70%;
+    }
+}

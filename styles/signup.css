@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}
+
+select {
+  cursor: pointer;
+}
+
+aside {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+aside .celeste {
+  position: absolute;
+  width: 613px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  background-color: #87B7FF;
+  clip-path: polygon(100% 0, 23% 100%, 100% 100%);
+  z-index: 10;
+}
+
+aside .gris {
+  position: absolute;
+  width: 673px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  background-color: #C4C4C4;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  z-index: 9;
+}
+
+aside .azul {
+  position: absolute;
+  width: 632px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: #021634;
+  clip-path: polygon(75% 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 8;
+}
+
+header {
+  padding: 10px 30px;
+  position: relative;
+}
+
+header img {
+  width: 450px;
+}
+
+header span {
+  position: absolute;
+  bottom: -20px;
+  left: 400px;
+  font-weight: bold;
+}
+
+main .formStep1 {
+  width: 700px;
+  padding: 50px;
+}
+
+main .formStep1 .form-floating input, main .formStep1 .form-floating select {
+  border-radius: 50px;
+}
+
+main .formStep1 .form-floating input,
+main .formStep1 .form-floating label,
+main .formStep1 .form-floating select {
+  padding-left: 30px;
+}
+
+main .formStep1 .form-floating select {
+  padding-top: 0.7rem;
+}
+
+main .formStep1 .docInfo {
+  display: grid;
+  align-items: flex-end;
+  position: relative;
+  grid-template-columns: 30% 70%;
+}
+/*# sourceMappingURL=signup.css.map */

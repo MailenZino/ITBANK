@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/signup.css">
+    <title>Registro de Usuario</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo_itbank_provisorio.png" alt="logo Itbank">
+        <span>REGISTRO DE USUARIO</span>
+    </header>
+    <main>
+
+        <div class="timeLine">
+            <div class="lines">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
+            <div class="num active"><span>1</span></div>
+            <div class="num"><span>2</span></div>
+            <div class="num"><span>3</span></div>
+        </div>
+        <section class="formStep1">
+            <h1>Datos Personales</h1>
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="floatingInput" placeholder="Agustin">
+                <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating">
+                <input type="lastname" class="form-control" id="floatingInput" placeholder="Romero">
+                <label for="floatingInput">Apellido</label>
+            </div>
+            <div class="row g-2 docInfo">
+                <div class="col-md">
+                    <span>Tipo de documento</span>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid">
+                            <option selected>DNI</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="documento" class="form-control" id="floatingInput" placeholder="Ej:45092655">
+                        <label for="floatingInput">Numero de documento</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div class="celeste"></div>
+            <div class="azul"></div>
+            <div class="gris"></div>
+        </aside>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
