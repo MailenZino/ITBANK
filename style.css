@@ -13,6 +13,8 @@ p{
     font-size: 15px;
     color: #fbfbfbbb;
 }
+
+
 #titulo{
     margin-top: 0.5rem;
     color:white;
@@ -59,7 +61,6 @@ div{
 .card{
     background-color: white;
     box-shadow: 4px 2px 16px 0 rgba(0,0,0,0.3);
-    margin:15px;
     width:300px;
     border-radius: 25px;
 }
@@ -71,16 +72,18 @@ div{
 .container{
     border-radius: 25px;
     background-color: white;
-    padding:15px 8px;
+    padding:8px;
     color:rgb(2,22,52);
-    
 }
 
 b{
     font-size:1rem;
+    border:none;
     background-color: white;
     color:rgb(2,22,52);
+    /*para 2 lineas  <p class="container saldo"> <hr><b>$45000</b><hr> </p>*/
 }
+
 
 .referencia{
     font-size: 0.85rem;
@@ -89,13 +92,12 @@ b{
 
 .info{
     text-align: right;
-    margin-bottom:0.5rem;
+    margin-bottom:0.3rem;
 }
 
 table{
     width:90%;
     background-color: white;
-    
 }
 
 
