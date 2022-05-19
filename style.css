@@ -61,7 +61,7 @@ div{
     box-shadow: 4px 2px 16px 0 rgba(0,0,0,0.2);
     /*margin:15px;*/
     width:300px;
-    /*border-radius: 25px;*/
+    border-radius: 25px;
 }
 
 .card:hover{
@@ -69,10 +69,9 @@ div{
 }
 
 .container{
-    /*left:5px; right:5px;*/
-    /*border-radius: 25px;*/
+    border-radius: 25px;
     background-color: white;
-    /*padding:40px 8px;*/
+    padding:10px 8px;
     color:rgb(2,22,52);
     
 }
@@ -82,12 +81,8 @@ b{
     background-color: white;
     color:rgb(2,22,52);
 }
-j{
-    font-size:1rem;
-    background-color: white;
-    color:rgb(2,22,52);
-    text-align:left;
-}
+
 .referencia{
-    text-align: right;
+    text-align: left;
+    margin-bottom:0.5rem;
 }
