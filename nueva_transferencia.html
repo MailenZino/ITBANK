@@ -20,12 +20,11 @@
     </div>
     
     <hr>
-    <h3 class="text-center">Transferencias</h3>
+    <h3 class="text-center">Nueva transferencia</h3>
 
     <hr>
 
     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-        <button type="button" class="btn btn-primary">Nueva transferencia</button>
         <button type="button" class="btn btn-primary">Agregar destinatario</button>
         
         <div class="btn-group" role="group">
@@ -40,37 +39,30 @@
       </div>
     
     <hr>
-    <div>
-        <h4 class="text-center">Últimas transferencias</h4>
-        
-        <div class="row">
-            <div class="col-2">
-                Recibido
-            </div>
-            <div class="col-6">
-                Lucas Rodríguez
-            </div>
-            <div class="col-4">
-                $5000
-            </div>
-            
-            <div class="col-2">
-                Enviado
-            </div>
-            <div class="col-6">
-                Juan Pérez
-            </div>
-            <div class="col-4">
-                $3500
-            </div>
-        </div>
+   
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Destinatario</span>
+        <input type="text" class="form-control" placeholder="Ingrese CBU/CVU/alias o el nombre si esta en agenda" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">ARS</span>
+      </div>
 
+      <div class="input-group">
+        <span class="input-group-text">Descripción</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
 
+      <div class="text-center">Por favor, verifique que los datos sean correctos</div>
 
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-primary">Volver</button>
+        <button type="button" class="btn btn-outline-primary">Continuar</button>
+      </div>
 
-
-
-    </div>
     <hr>
     
 
