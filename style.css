@@ -1,0 +1,52 @@
+*{ 
+    background-color: rgb(2,22,52);
+    font-family:'Montserrat';
+    text-align:center;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    color:white;
+}
+
+p{
+    font-size: 15px;
+    color: #fbfbfbbb;
+}
+#titulo{
+    color:white;
+    font-size: 4rem;
+    text-align:justify;
+}
+
+#subtitulo{
+    color:white;
+    font-size: 1rem;
+    text-align:justify;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+
+#button
+{
+    border: 15px white solid;
+    border-radius: 300px;
+    margin-bottom: 0.5rem;
+
+    font-size: 20px;
+    size:1rem;
+    background-color:white;
+    color:rgb(2,22,52);
+}
+
+#button:hover{
+    color:rgba(0, 22, 56, 0.678);
+}
+
+
+#PlazoVig{
+    text-align:justify;
+}
+
+div{
+    margin-bottom: 3rem;
+}
