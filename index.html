@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal</title>
-    <link rel="stylesheet" href="estilos.css">
+	<meta charset="UTF-8">
+	<title>Menù Lateral con Css</title>
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
-    <h1>ITBANK</h1>
-    <input type="button" value="Centro de ayuda">
-    <hr>
-    <br>
-    <div>
-        <H3>Iinicio</H3>
-        
-<hr>
-<br>
-        <ul>
-            <li>TRANSFERENCIA</li>
-            <li>PAGOS DE SERVICIO </li>
-            <li>SEGUROS </li>
-            <li>PLAZO FIJO </li>
-            <li>PRESTAMOS </li>
-        </ul>
-    </div>
-<hr>
-<br>
-    <div>
-     <input type="button" value="acceso directo">
-    </div>
-
-    <dir>
-        <input type="button" value="consultas">
-        <input type="button" value="transacciones">
-        <input type="button" value="inversiones">
-        <input type="button" value="solicitudes y tramites">
-        <input type="button" value="benificios">
-
-    </dir>
-        
-    
-    
-     
+    <h1 class="itbank">ITBANK</h1>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Inicio</h1>
+			</div>
+			
+		</div>
+	</header>
+	<div class="capa"></div>
+--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#">Transfencia</a>
+			<a href="#">Pagos de servicios</a>
+			<a href="#">Seguros</a>
+			<a href="#">Plazo Fijo</a>
+			<a href="#">Prestamos</a>
+		
+		</nav>
+		<label for="btn-menu"></label>
+	</div>
+</div>
 </body>
 </html>
