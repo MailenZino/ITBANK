@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
+        <script src="PlazoFijo.js"></script>
     </head>
 
     <body>
@@ -18,8 +19,8 @@
          <table id="TablaConstituirPF">
                <tr>
                     <td class="container referencia">CUENTA</td>
-                    <td class="container info">
-                        <input type="button" class="button B2" value=cuenta>
+                    <td>
+                         <input type="decimal" class="container info" id="userInputNcuenta" placeholder="00000000"></td>
                     </td>
                 </tr>
                 <tr>
@@ -28,13 +29,11 @@
                 </tr>
                 <tr>
                      <td class="container referencia">IMPORTE</td>
-                     <td class="container info">$43000</td>
+                     <td><input type="decimal" class="container info" id="userInputImporte" placeholder="0.00"></td>
                 </tr>
                     <tr>
                         <td class="container referencia">PLAZO</td>
-                        <td class="container info">
-                            <input type="button" class="button B2" value=plazo>
-                            (dias)
+                        <td><input type="decimal" class="container info" id="userInputPlazo" placeholder="0">(dias)</td>
                         </td>
                     </tr>
                     <tr>
@@ -52,7 +51,9 @@
           </table>
 
         </div>
-        <input type="button" class="button B3" value=CONSTITUIR>
+        
+        <input type="button" class="button B3" onclick="dataLOAD();" value=CONSTITUIR></button>
+        
 
     </body>
 
